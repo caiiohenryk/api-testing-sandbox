@@ -3,7 +3,7 @@ import { SumService } from '../sum.service';
 
 describe('SumService', () => {
   let sumService: SumService;
-  beforeAll(() => {
+  beforeEach(() => {
     sumService = new SumService();
   });
 
